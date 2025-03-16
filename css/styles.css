@@ -53,54 +53,60 @@ font-style: normal;
 color: #404bbf
 }
 
-.our-portfolio {
-    padding: 80px 40px;
+.portfolio {
+    padding: 100px 0;
+    background-color: #fff;
 }
 
-.our-portfolio h2 {
+.portfolio-title {
+    text-align: center;
     font-size: 36px;
     font-weight: 700;
-    margin-bottom: 40px;
-    text-align: center;
+    color: #2E2F42;
+    margin-bottom: 50px;
 }
 
-.our-portfolio ul {
+.portfolio-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 24px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
     justify-content: center;
 }
 
-.our-portfolio li {
-    background-color: #ffffff;
-    padding: 10px;
-    border-radius: 5px;
-    text-align: center;
+.portfolio-item {
     width: 360px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s;
+    background-color: #fff;
+    transition: transform 0.3s ease-in-out;
 }
 
-.our-portfolio li:hover {
-    transform: translateY(-5px);
+.portfolio-item:hover,
+.portfolio-item:focus {
+    transform: scale(1.05);
 }
 
-/* === Футер === */
-.footer {
-    background-color: #2e2f42;
-    color: #ffffff;
+.portfolio-item img {
+    width: 100%;
+    display: block;
+}
+
+.portfolio-info {
+    padding: 20px;
+    background-color: #f4f4fd;
     text-align: center;
-    padding: 40px 20px;
 }
 
-.footer a {
-    font-family: "Raleway", sans-serif;
+.portfolio-item-title {
+    font-size: 20px;
     font-weight: 700;
-    font-size: 24px;
-    color: #4d5ae5;
+    color: #2E2F42;
+    margin-bottom: 10px;
 }
 
-.footer p {
+.portfolio-item-text {
     font-size: 16px;
-    margin-top: 10px;
+    font-weight: 400;
+    color: #434455;
 }
