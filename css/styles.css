@@ -35,7 +35,7 @@ color: #2e2f42;
 }
 
 .contacts {
-font-style: normal;
+font-style:normal;
 }
 
 .contacts-link {
@@ -50,5 +50,45 @@ color: #434455;
 .contacts-link:hover,
 .contacts-link:focus {
 color: #404bbf
+}
+
+.button:hover,
+.button:focus{
+    background-color: #404bbf;
+
+}
+.page-footer{
+    background-color: #2e2f42;
+}
+
+
+
+.section-team{
+    background-color:#fff;
+}
+.team{
+    font-weight:500;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0,02em;
+    text-align: center;
+    color:#2e2f42
+}
+.text-name{
+font-weight: 500;
+font-size: 36px;
+line-height: 1.2;
+letter-spacing: 0, 02em;
+text-align: center;
+color:#2e2f42;
+}
+
+.team-text{
+font-weight: 500;
+font-size: 36px;
+line-height: 1.5;
+letter-spacing: 0, 02em;
+text-align: center;
+color:#434455;
 }
 
